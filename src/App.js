@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import { Link, Routes, Route } from 'react-router-dom';
-import { Page1 } from './routes/page1';
-import { Page2 } from './routes/page2';
-import { Page3 } from './routes/page3';
-import { Page4 } from './routes/page4'
+import { Routes, Route, Link } from 'react-router-dom';
+import { Page1 } from './routes/Page1';
+import { Page2 } from './routes/Page2';
+import { Page3 } from './routes/Page3';
+import { Page4 } from './routes/Page4';
 
 function App() {
   return (
@@ -28,7 +27,6 @@ function App() {
         </Route>
       </Route>
     </Routes>
-    
    </>
   );
 }
